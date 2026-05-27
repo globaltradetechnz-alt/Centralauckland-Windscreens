@@ -1,0 +1,3 @@
+# Centralauckland Windscreens — static site, no build step.
+[build]
+  publish = "."
