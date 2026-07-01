@@ -58,5 +58,6 @@
   "sitemap": "https://centralaucklandwindscreens.co.nz/sitemap.xml",
   "robots": "https://centralaucklandwindscreens.co.nz/robots.txt",
   "llms": "https://centralaucklandwindscreens.co.nz/llms.txt",
+  "updated": "2025-07-02T00:00:00Z",
   "mcp": "https://centralaucklandwindscreens.co.nz/.well-known/mcp.json"
 }
