@@ -1,3 +1,27 @@
 # Centralauckland Windscreens — static site, no build step.
 [build]
   publish = "."
+
+# Redirect pretty URLs to .html files
+[[redirects]]
+  from = "/services/"
+  to = "/services.html"
+  status = 301
+
+[[redirects]]
+  from = "/insurance-claims/"
+  to = "/insurance-claims.html"
+  status = 301
+
+[[redirects]]
+  from = "/blog/"
+  to = "/blog/index.html"
+  status = 200
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
